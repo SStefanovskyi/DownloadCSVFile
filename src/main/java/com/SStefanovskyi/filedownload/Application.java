@@ -1,5 +1,6 @@
-package com.SSProj.filedownload;
+package com.SStefanovskyi.filedownload;
 
+import com.SStefanovskyi.filedownload.CSV.CSVData;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.io.InputStreamResource;
@@ -21,10 +22,10 @@ import java.util.List;
 @SpringBootApplication
 @RestController
 
-public class FiledownloadApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FiledownloadApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 		@RequestMapping(value = "/download", method = RequestMethod.GET)
 		public ResponseEntity<Object> downloadFile() throws IOException {

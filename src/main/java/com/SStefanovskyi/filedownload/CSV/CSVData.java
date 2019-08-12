@@ -1,4 +1,4 @@
-package com.SSProj.filedownload;
+package com.SStefanovskyi.filedownload.CSV;
 
 public class CSVData {
 
